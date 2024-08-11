@@ -1,0 +1,315 @@
+@font-face {
+    font-family: nb;
+    src: url(NBInternationalProBoo.ttf);
+}
+
+@font-face {
+    font-family: re;
+    src: url(Rejouice-Headline.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'nb';
+
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+#main {
+    width: 100%;
+    position: relative;
+}
+
+#nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5vw;
+    position: absolute;
+    left: 0;
+    z-index: 11;
+    top: 0;
+}
+
+#nav h1 {
+    font-size: 1.5vw;
+    color: #fff;
+    font-family: 'nb';
+    font-weight: 200;
+    cursor: pointer;
+}
+
+#nav h1:last-child:hover {
+    
+    text-decoration: underline;
+}
+
+#hero video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    z-index: -1;
+}
+#hero {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+#contant {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    z-index: 2;
+    position: absolute;
+}
+
+#contant h1 span{
+    color: #fff;
+    font-size: 26vw;
+    line-height: 80%;
+    font-weight: 400;
+    font-family: 're';
+    cursor:default;
+    text-align: center;
+}
+
+#play-reel {
+    width: 7vw;
+    height: 7vw;
+    background-color: #00000099;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    justify-content: center;
+    border-radius: 50px;
+    position: absolute;
+    cursor: default;
+}
+#play-reel h3{
+    color: #fff;
+    font-size: 1.2vw;
+    font-weight: 100;
+}
+
+#page2 {
+    width: 100%;
+    min-height: 100vh;
+    padding: 5vw 2vw 1vw 2vw;
+}
+
+#p2-top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #000;
+    padding-bottom: 1.5vw;
+}
+#page2 div{
+    overflow: hidden;
+    position: relative;
+}
+#p2-top h3{
+    font-size: 1.8vw;
+    font-weight: 100;
+    position: relative;
+}
+
+#page2 h2 {
+    font-size: 4.2vw;
+    line-height: 5vw;
+    font-weight: 100;
+}
+
+
+#page3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 4vw 0 8vw 0;
+}
+
+#p3-cont h5 {
+    text-align: center;
+    font-size: 1.2vw;
+    font-weight: 400;
+}
+
+#p3-cont h5 span {
+    background-color: #000;
+    color: #fff;
+    font-size: 1vw;
+    padding: .2vw 1vw;
+    border-radius: 50px;
+}
+
+#p3-cont h3 {
+    margin: 1.2vw 0;
+    font-size: 4.5vw;
+    text-align: center;
+    font-weight: 100;
+    text-decoration: underline;
+}
+
+#page4 {
+    width: 100%;
+    height: 100vh;
+    padding: 5vw 2vw;
+}
+
+#p4-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#p4-top h4 {
+    font-size: 1.7vw;
+    font-weight: 400;
+}
+
+#group1 {
+    position: relative;
+    display: flex;
+    gap: 1vw;
+    margin-top: 1vw;
+}
+
+.group1-items {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.group1-items img {
+    width: 100%;
+    position: relative;
+    object-fit: cover;
+}
+
+.group1-items img:last-child {
+    height: 2vw;
+    width: min-content;
+    position: absolute;
+    z-index: 1;
+    bottom: 5vw;
+}
+
+#page5 {
+    width: 100%;
+    padding: 2vw;
+    margin-top: 7vw;
+}
+
+#p5-top h3 {
+    font-size: 1.8vw;
+    font-weight: 100;
+}
+
+#p5-top {
+    border-bottom: 1px solid #000;
+    padding-bottom: 1.2vw;
+    margin-bottom: 1.2vw;
+}
+
+#p5-content h3 {
+    font-size: 4.5vw;
+    font-weight: 400;
+}
+
+#anivid video {
+    object-fit: contain;
+    height: 100%;
+}
+
+#anivid {
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    height: 150vh;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#anivid svg {
+    position: absolute;
+    z-index: 11;
+    width: 40%;
+}
+
+#anivid svg {
+    position: absolute;
+    z-index: 11;
+    width: 40%;
+}
+
+#ani-cont {
+    position: absolute;
+    color: #fff;
+    text-align: center;
+}
+
+#ani-cont h2 {
+    font-size: 4.5vw;
+    font-weight: 100;
+    display: flex;
+    gap: .3vw;
+    position: relative;
+    height: 5vw;
+}
+
+
+#ani-cont h2 span{
+    overflow: hidden;
+    position: relative;
+}
+#ani-cont h2 span h2 {
+    position: relative;
+}
+
+#ani-cont h5 {
+    font-size: 1.8vw;
+    font-weight: 100;
+}
+
+
+#page6{
+    padding: 2vw;
+}
+
+#p6-top{
+    border-bottom: 1px solid #000;
+    padding-bottom: 1.2vw;
+    margin-bottom: 1.2vw;
+}
+#p6-top h4{
+   font-size: 1.8vw;
+    font-weight: 100;
+}
+
+#page6 h2{
+    font-size: 4.1vw;
+    font-weight: 400;
+}
